@@ -1,12 +1,31 @@
-import datetime
+name: Update Pac-Man
 
-commits_today = datetime.datetime.now().day % 5  # dummy value
-svg_template = f"""
-<svg viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="10" cy="10" r="8" fill="yellow" />
-  {"".join([f'<circle cx="{30 + i*20}" cy="10" r="3" fill="white"/>' for i in range(5 - commits_today)])}
-</svg>
-"""
+on:
+  schedule:
+    - cron: "0 0 * * *"  # update tiap hari
+  push:
+    branches:
+      - main
 
-with open("assets/pacman.svg", "w") as f:
-    f.write(svg_template)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate Pacman SVG
+        run: python scripts/generate_pacman.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pacman.svg
+          git commit -m "update pacman status" || echo "No changes to commit"
+          git push
