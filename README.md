@@ -46,9 +46,6 @@ For me, technology isn’t just about writing code — it’s about creating sol
 
 ---
 
-### 🟡 My Pac-Man Mood
-![Pac-Man Status](./assets/pacman-template.svg)
-
 ## 🔝 Top Contributed Repositories
 ![](https://github-contributor-stats.vercel.app/api?username=denyrzz&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
