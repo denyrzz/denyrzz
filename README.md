@@ -1,6 +1,11 @@
 # 💫 About Me:
 Hi there! I'm Deni Ramadhan, a developer who loves turning ideas into something real — from web apps to intelligent systems.<br>I’m passionate about building meaningful digital experiences and exploring how technology can solve real-world problems.
 
+💻 What I Do / Apa yang Saya Kerjakan
+🧩 Web Development: Building full-stack applications with Laravel, Vue.js, and Next.js.
+📱 App Development: Creating scalable and maintainable web apps using the Laravel ecosystem.
+🤖 Machine Learning: Exploring data-driven solutions, from sentiment analysis to predictive modeling.
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/deny_rzz) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/deniramadhannn) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:deniramadhan3c@gmail.com) 
