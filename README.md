@@ -1,5 +1,4 @@
 ![Header](./banner.png)
-
 # 💫 About Me
 
 Hi there! 👋 I'm **Deni Ramadhan**, a developer who loves turning ideas into something real — from web apps to intelligent systems.  
