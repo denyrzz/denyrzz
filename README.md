@@ -80,9 +80,7 @@ For me, technology isn’t just about writing code — it’s about creating sol
 ###
 
 ## ✍️ Random Dev Quote
-<div align="center">
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-</div>
 
 ---
 
