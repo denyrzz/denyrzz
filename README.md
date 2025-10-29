@@ -8,8 +8,8 @@ For me, technology isn’t just about writing code — it’s about creating sol
 ---
 
 ## 💻 What I Do
-- 🧩 **Web Development:** Building full-stack applications with **Laravel**, **Vue.js**, and **Next.js**.  
-- 📱 **App Development:** Creating scalable and maintainable web apps using the **Laravel ecosystem**.  
+- 🧩 **Web Development:** Building full-stack applications with **Laravel**, **Vue.js**, and **Node.js**.  
+- 📱 **App Development:** Creating scalable and maintainable web apps using the **Kotlin** and **Flutter**.  
 - 🤖 **Machine Learning:** Exploring data-driven solutions, from **sentiment analysis** to **predictive modeling**.  
 
 ---
